@@ -4,10 +4,6 @@
     padding: 0px;
 }
 
-body {
-  background-color: red;
-}
-
 //VARIABLES
 
 $grid_cols: 12;
@@ -16,6 +12,7 @@ $col_1_width: $max_width / $grid_cols;
 
 //END OF VARIABLES
 
+//Creating 12 column grid
 @for $i from 1 through 12 {
     /*Column width*/
     .col-#{$i} { width: $col_1_width * $i };
@@ -24,3 +21,4 @@ $col_1_width: $max_width / $grid_cols;
     /*Column width*/
     .offset-#{$i} { margin-left: $col_1_width * $i };
 }
+//end of 12 column grid
