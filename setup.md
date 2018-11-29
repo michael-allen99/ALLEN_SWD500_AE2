@@ -1,10 +1,5 @@
 # Vue, Webpack 4, Babel and SASS
 
-This project can be used as a starting point to use vue.js to enhance a simple static HTML website. It will allow the creation of a few choice vue.js components adding dynamic features to an otherwise static HTML pages. More importantly, this project is intended as a gradual introduction to a modern web development workflow. 
-
-I created this project out of necessity when teaching a front end web development course. I needed the students to adopt a simple front end workflow when developing simple multi page websites. Most of the starter WebPack projects I encountered were geared towards single page web applications. This project addresses this issue in presenting a versatile WebPack configuration intended to support multiple HTML pages. 
-
-
 ##  Environment configuration 
 
 - This project depends on node version 6 or higher
