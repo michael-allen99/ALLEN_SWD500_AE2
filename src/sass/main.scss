@@ -1,7 +1,26 @@
+//RESET STYLES
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
-  font-family: arial;
-  h1 {
-    font-size: 20px;
-    color: red;
-  }
+  background-color: red;
+}
+
+//VARIABLES
+
+$grid_cols: 12;
+$max_width: 100%;
+$col_1_width: $max_width / $grid_cols;
+
+//END OF VARIABLES
+
+@for $i from 1 through 12 {
+    /*Column width*/
+    .col-#{$i} { width: $col_1_width * $i };
+}
+@for $i from 1 through 12 {
+    /*Column width*/
+    .offset-#{$i} { margin-left: $col_1_width * $i };
 }
