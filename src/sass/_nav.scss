@@ -1,4 +1,65 @@
 //Nav CSS
 nav {
+    a {
+        text-decoration: none;
+        :hover {
+            color: blue;
+        }
+    }
+    li {
+        display: inline-block; //Display nav inline
+        color: black;
+        width: 200px;
+        margin-left: 20px;
+        font-size: 25px;
+        font-family: $heading_font;
+        
+        :hover {
+            color: blue;
+        }
+    }
+    //Dropdown code
+    .dropdown { 
+        position: relative;
+        display: inline-block;
+        :hover {
+            color: blue;
+        }
+    }
     
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: transparent;
+        width: 300px;
+        margin: 0;
+        padding: 12px 16px;
+        z-index: 1;
+        text-align: left;
+    }
+    
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+    
+    .block {
+        display: block;
+        margin: 0;
+    }
+    
+    //Active tab code
+    .active {
+        font-weight: bold;
+    }
+    
+
+
+}
+
+//Nav Heading text 
+h1 {
+    display: inline;
+    font-size: 25px;
+    font-weight: normal;
+    font-family: $heading_font;
 }

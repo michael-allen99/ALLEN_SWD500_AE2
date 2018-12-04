@@ -11,25 +11,34 @@
 
 <header class="col-12 home-header"> <!--Start of Header-->
 
-    <nav class="col-12"> <!-- Navigation -->
+    <nav class="col-8"> <!-- Navigation -->
         <ul>
             <a href="index.html"><li class="active">About Me</li></a>
-            <li>Design
-                <ul>
-                    <a href="logos.html"><li>Logos</li></a>
-                    <a href="uiux.html"><li>UI and UX</li></a>
-                </ul>
-            </li>
-            <li>Coding
-                <ul>
-                    <a href="websites.html"><li>Website Code</li></a>
-                    <a href="python.html"><li>Python</li></a>
-                </ul>
-            </li>
+            <div class="dropdown">
+                <li>Design
+                    <div class="dropdown-content">
+                        <ul>
+                            <a href="logos.html"><li class="block">Logos</li></a>
+                            <a href="uiux.html"><li class="block">UI and UX</li></a>
+                        </ul>
+                    </div>
+                </li>
+            </div>
+            <div class="dropdown">
+                <li>Coding
+                    <div class="dropdown-content">
+                        <ul>
+                            <a href="websites.html"><li class="block">Website Code</li></a>
+                            <a href="python.html"><li class="block">Python</li></a>
+                        </ul>                        
+                    </div>
+                </li>                
+            </div>
             <a href="contact.html"><li>Contact</li></a>
         </ul>
-        <h1>Michael Allen Web Development</h1>
+        
     </nav> <!-- End of Navigation -->
+    <h1 class='col-4'>Michael Allen Web Development</h1>
     
     <img class="desktop-only col-2 offset-5" src="images/headshot.png" alt="Headshot of Michael Allen"/> <!-- Image of Michael Allen -->
     <h2 class="col-2">Hey, I'm Mike <br>
