@@ -1,31 +1,34 @@
-//Import all CSS
+//Import all CSS files
 @import 'variables';
+@import 'nav';
 
 //RESET STYLES
 * {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
-//VARIABLES
 
-//END OF VARIABLES
 
 //Creating 12 column grid
 @for $i from 1 through 12 {
     /*Column width*/
-    .col-#{$i} { width: $col_1_width * $i };
+    .col-#{$i} { width: $col_1_width * $i; float: left; display: block;};
 }
 @for $i from 1 through 12 {
     /*Column width*/
-    .offset-#{$i} { margin-left: $col_1_width * $i };
+    .offset-#{$i} { margin-left: $col_1_width * $i; float: left;};
 }
-//end of 12 column grid
 
-body {
-    background-color: $color;
+
+//end of 12 column grid
+#wrapper {
+    display: table;
     
-    header {
-        border: 1px solid black;
-    }
 }
+//home header
+.home-header {
+    background-image: url('../images/backgrounds/bg_home.png');
+}
+//end of home header
