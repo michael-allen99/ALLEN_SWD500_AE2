@@ -1,3 +1,6 @@
+//Import all CSS
+@import 'variables';
+
 //RESET STYLES
 * {
     margin: 0px;
@@ -5,10 +8,6 @@
 }
 
 //VARIABLES
-
-$grid_cols: 12;
-$max_width: 100%;
-$col_1_width: $max_width / $grid_cols;
 
 //END OF VARIABLES
 
@@ -22,3 +21,11 @@ $col_1_width: $max_width / $grid_cols;
     .offset-#{$i} { margin-left: $col_1_width * $i };
 }
 //end of 12 column grid
+
+body {
+    background-color: $color;
+    
+    header {
+        border: 1px solid black;
+    }
+}

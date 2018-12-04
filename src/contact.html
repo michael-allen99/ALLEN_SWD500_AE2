@@ -9,26 +9,64 @@
 </head>
 <body>
 
-<h1>contact page</h1>
+<header class="contact"> <!--Start of Header-->
 
-<nav>
-    <ul>
-        <a href="index.html"><li>About Me</li></a>
-        <li>Design
-            <ul>
-                <a href="logos.html"><li>Logos</li></a>
-                <a href="uiux.html"><li>UI and UX</li></a>
-            </ul>
-        </li>
-        <li>Coding
-            <ul>
-                <a href="websites.html"><li>Website Code</li></a>
-                <a href="python.html"><li>Python</li></a>
-            </ul>
-        </li>
-        <a href="contact.html"><li>Contact</li></a>
-    </ul>
-</nav>
+    <nav> <!-- Navigation -->
+        <ul>
+            <a href="index.html"><li>About Me</li></a>
+            <li>Design
+                <ul>
+                    <a href="logos.html"><li>Logos</li></a>
+                    <a href="uiux.html"><li class="active">UI and UX</li></a>
+                </ul>
+            </li>
+            <li>Coding
+                <ul>
+                    <a href="websites.html"><li>Website Code</li></a>
+                    <a href="python.html"><li>Python</li></a>
+                </ul>
+            </li>
+            <a href="contact.html"><li>Contact</li></a>
+        </ul>
+        <h1>Michael Allen Web Development</h1>
+    </nav> <!-- End of Navigation -->
+    
+    <h3>Let's work together!</h3>
+    
+    <form>
+      <label for="name">Name</label>
+      <input type="text" name="name" id="name" value=""><br>
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email" value=""><br>
+      <label for="message">Message</label>
+      <textarea name="message" id="message"></textarea><br><br>
+      <input type="submit" value="Send">
+    <form>
+    
+    
+</header> <!-- End of Header -->
+
+<footer><!--Start footer-->
+    <nav class="footer-nav">
+        <ul>
+            <a href="index.html"><li>About Me</li></a>
+            <li>Design
+                <ul>
+                    <a href="logos.html"><li>Logos</li></a>
+                    <a href="uiux.html"><li>UI and UX</li></a>
+                </ul>
+            </li>
+            <li>Coding
+                <ul>
+                    <a href="websites.html"><li>Website Code</li></a>
+                    <a href="python.html"><li>Python</li></a>
+                </ul>
+            </li>
+            <a href="contact.html"><li>Contact</li></a>
+        </ul>
+        <p>Michael Allen Web Development</p>
+    </nav>
+</footer><!--End footer-->
 
 <script type="text/javascript" src="bundle.js"></script>
 </body>
