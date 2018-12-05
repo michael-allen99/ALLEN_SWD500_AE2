@@ -56,10 +56,16 @@ nav {
 
 }
 
+.topnav {
+    position: fixed;
+}
+
 //Nav Heading text 
 h1 {
+    position: fixed;
     display: inline;
     font-size: 25px;
     font-weight: normal;
     font-family: $heading_font;
+    margin-left: 70%;
 }
