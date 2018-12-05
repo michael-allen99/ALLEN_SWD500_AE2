@@ -1,9 +1,10 @@
 //Nav CSS
-nav {
+nav{
+    
     a {
         text-decoration: none;
         :hover {
-            color: grey;
+            color: $hover_color;
         }
     }
     li {
@@ -11,35 +12,33 @@ nav {
         color: $header_color;
         width: 200px;
         margin-left: 20px;
-        font-size: 25px;
+        font-size: 16px;
         font-family: $heading_font;
         
         :hover {
-            font-weight: grey;
+            color: $hover_color;
         }
     }
     //Dropdown code
     .dropdown { 
         position: relative;
         display: inline-block;
-        :hover {
-            font-weight: grey;
-        }
     }
     
     .dropdown-content {
         display: none;
         position: absolute;
-        background-color: transparent;
-        width: 300px;
+        width: 200px;
         margin: 0;
         padding: 12px 16px;
         z-index: 1;
         text-align: left;
+        background-color: $heading3_color;
     }
     
     .dropdown:hover .dropdown-content {
         display: block;
+        background-color: $heading3_color;
     }
     
     .block {
@@ -58,13 +57,17 @@ nav {
 
 .topnav {
     position: fixed;
+    background-color: $heading3_color;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
+
 
 //Nav Heading text 
 h1 {
     position: fixed;
     display: inline;
-    font-size: 25px;
+    font-size: 16px;
     font-weight: normal;
     font-family: $heading_font;
     margin-left: 70%;
