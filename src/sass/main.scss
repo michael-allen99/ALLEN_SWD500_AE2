@@ -29,32 +29,60 @@
     
 }
 //home header
-.home-header {
-    background-image: url('../images/backgrounds/bg_home.png');
-}
+
 //end of home header
 
 header {
     height: 100vh;
-    
+    background-image: url('../images/backgrounds/bg_home.png');
+                           
     .heading_text {
         margin-top: 200px;
     }
 }
+
+h2 {
+    color: $header_color;
+    font-size: 50px;
+
+}
+
+.designh2 {
+    color: $design_header_color;
+}
+
 h2, h3 {
-    margin-top: 100px;
+    margin-top: 50px;
     font-family: $heading_font;
 }
+
+h3 {
+    color: $heading3_color;
+    font-size: 22px;
+}
+
 p {
     font-family: $paragraph_font;
+    color: $paragraph_color;
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 1.5em;
+}
+
+.underline {
+    margin-top: 6px;
+    margin-bottom: 6px;
+    height: 3px;
+    background-color: $heading3_color;
 }
 
 footer {
     margin-top: 200px;
     text-align: center;
+    background-color: $heading3_color;
     nav {
         li a{
-            font-size: 12px !important;
+            font-size: 12px;
         }
     }
 }
