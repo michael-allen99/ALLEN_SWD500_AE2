@@ -1,9 +1,11 @@
 //Import all CSS files
 @import 'variables';
+@import 'headerbg';
 @import 'nav';
 @import 'fonts';
 @import 'button';
 @import 'footer';
+@import 'contact-form';
 
 //RESET STYLES
 * {
@@ -45,7 +47,6 @@ header {
 
 h2 {
     color: $header_color;
-    font-size: 50px;
 
 }
 

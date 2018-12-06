@@ -1,4 +1,3 @@
-
 //import styles
 import '../sass/main.scss';
 
@@ -10,6 +9,17 @@ import '../logos.html';
 import '../websites.html';
 import '../python.html';
 
-//
-import Vue from 'vue';
+//import components
+import contact_form from './components/contact_form.vue';
 
+// Import vue and VeeValidate
+import Vue from 'vue';
+import VeeValidate from 'vee-validate';
+
+Vue.use(VeeValidate);
+
+Vue.component('contact-form', contact_form);
+
+const app = new Vue({
+    el: '#app',
+});
