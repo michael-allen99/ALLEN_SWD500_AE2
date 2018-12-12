@@ -15,7 +15,8 @@ import contact_form from './components/contact_form.vue';
 // Import vue and VeeValidate
 import Vue from 'vue';
 import VeeValidate from 'vee-validate';
-
+import VueCarousel from 'vue-carousel';
+Vue.use(VueCarousel);
 Vue.use(VeeValidate);
 
 Vue.component('contact-form', contact_form);

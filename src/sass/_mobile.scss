@@ -1,0 +1,30 @@
+
+//MOBILE STYLES
+
+@media only screen and (max-width: 600px) {
+    @for $i from 1 through 12 {
+        /*Column width*/
+        .col-#{$i} { width: 100%};
+    }
+    @for $i from 1 through 12 {
+        /*Column width*/
+        .offset-#{$i} { margin-left: 0;};
+    }
+    
+    #wrapper {
+        width: 90%;
+        margin-left: 5%;
+    }
+    
+    .desktop-only {
+        display: none;
+    }
+    
+    nav {
+        display: none;
+    }
+    
+    header {
+        height: 200px;
+    }
+}

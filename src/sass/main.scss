@@ -32,13 +32,10 @@
     display: table;
     
 }
-//home header
 
-//end of home header
 
 header {
     height: 100vh;
-    background-image: url('../images/backgrounds/bg_home.png');
                            
     .heading_text {
         margin-top: 200px;
@@ -47,7 +44,7 @@ header {
 
 h2 {
     color: $header_color;
-
+    
 }
 
 .designh2 {
@@ -78,3 +75,13 @@ p {
     height: 3px;
     background-color: $heading3_color;
 }
+
+.insta_widget {
+    border:none; 
+    overflow:hidden; 
+    height:495px;
+    margin-top: 10px;
+}
+
+//Import mobile styles
+@import 'mobile';
