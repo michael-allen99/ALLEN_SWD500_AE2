@@ -14,6 +14,7 @@ Test Table
 | Responsive | Elements should stack on Mobile | Developer Tools | |
 | Responsive | Images should resize on Mobile | Developer Tools | |
 | Responsive | Font should resize on Mobile | Developer Tools | |
+| Favicon | The Favicon should appear on every page | Google Chrome | Pass | None
 
 
 
