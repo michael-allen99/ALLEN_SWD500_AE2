@@ -1,0 +1,31 @@
+//Image grid CSS
+a {
+  position: relative;
+    p { //Caption styles
+      display: none; //Hide caption unless image is hovered
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      padding: 10px;
+      background: $design_header_color;
+      color: #ffffff;
+    
+    }
+    
+    &:hover p {
+      display: block; //Show caption when image is hovered
+    }
+    
+}
+
+.image-grid-p { //Create p height for description
+    height: 100px;
+}
+.display-img {
+    padding: 2px; //Give images 2px padding to create gap 
+    
+    &:hover {
+        padding: 0px; //Hover effect makes image appear larger
+        
+    }
+}
