@@ -1,35 +1,24 @@
 <template>
-  <div>
-    <ValidationProvider rules="required|email">
-      <div slot-scope="{ errors }">
-        <form class="offset-6 col-5"> <!-- Form -->
-            <label for="name">Name</label>
-                <input  type="text" name="name" id="name" value=""><br> <!--Name input-->
-            <label for="email">Email</label>
-                <input v-model="email" data-vv-as="Email" type="email" name="email" id="email" value=""><br> <!--Email input-->
-            <label for="message">Hey  {{email}}, what's your message?</label>
-                <textarea name="message" id="message" placeholder=""></textarea><br><br> <!--Message input-->
-            <input class="button col-12" type="submit" value="Send">
-            <p class="col-12">{{ errors[0] }}</p> <!--Display erros with form -->
-          </form> <!--End form-->
-      </div>
-    </ValidationProvider>
-  </div>
+<form class="offset-6 col-4">
+    <p> <!--Error Handling for Name input-->
+        Name: <input :class="{ error: errors.has('name') }" type="text" v-validate="'required'" name="name">
+        <span v-show="errors.has('name')" class="error">{{ errors.first('name') }}</span>
+    </p>
+    <p><!--Error Handling for email input-->
+        Email: <input :class="{ error: errors.has('email') }" type="text" v-validate="'required|email'" name="email">
+        <span v-show="errors.has('email')" class="error">{{ errors.first('email') }}</span>
+    </p>
+    <p><!--Error Handling for message input-->
+        Message: <textarea :class="{ error: errors.has('message') }" type="textarea" v-validate="'required|message'" name="message"></textarea>
+        <span v-show="errors.has('message')" class="error">{{ errors.first('message') }}</span>
+    </p>
+
+    <p><!--Submit Button-->
+        <button type="submit">Submit</button>
+    </p>
+
+</form>
+
+
 </template>
 
-<script>
-import { ValidationProvider } from 'vee-validate';
-
-export default {
-  data: () => ({
-    value: ''
-  }),
-  components: {
-    ValidationProvider
-  },
-  mounted: function() {
-    debugger;
-    console.log('running');
-  }
-}
-</script>

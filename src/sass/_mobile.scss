@@ -4,7 +4,7 @@
 @media only screen and (max-width: 600px) {
     @for $i from 1 through 12 {
         /*Column width*/
-        .col-#{$i} { width: 100%};
+        .col-#{$i} { width: 100%}; //Redefine columns to ensure all elements are stacked
     }
     @for $i from 1 through 12 {
         /*Column width*/
@@ -20,11 +20,21 @@
         display: none;
     }
     
-    nav {
-        display: none;
-    }
-    
     header {
         height: 200px;
+        background-image: none;
+    }
+    
+    h2 {
+        font-size: 19px;
+        margin-top: 0px;
+        color: black;
+        text-align: center;
+    }
+    h3 {
+        font-size: 15px;
+    }
+    p {
+        font-size: 12px;
     }
 }
