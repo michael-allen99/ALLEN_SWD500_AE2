@@ -22,8 +22,6 @@ Vue.use(VeeValidate);
 //Set up contact form contact 
 Vue.component('contact-form', contact_form);
 
-
-
 //Vue searching 
 const app = new Vue({
     el: '#app',

@@ -1,40 +1,43 @@
 
 //MOBILE STYLES
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) { //Change to mobile when the screen is 600px or less
     @for $i from 1 through 12 {
         /*Column width*/
         .col-#{$i} { width: 100%}; //Redefine columns to ensure all elements are stacked
     }
     @for $i from 1 through 12 {
         /*Column width*/
-        .offset-#{$i} { margin-left: 0;};
+        .offset-#{$i} { margin-left: 0;}; //Remove all offsets
     }
     
     #wrapper {
         width: 90%;
-        margin-left: 5%;
+        margin-left: 5%; //Centralise the entire page
     }
     
     .desktop-only {
-        display: none;
+        display: none; //Hide desktop only features
     }
     
     header {
-        height: 200px;
-        background-image: none;
+        height: 200px; //Change header height
     }
     
     h2 {
-        font-size: 19px;
+        font-size: 19px; //Change H2 font size
         margin-top: 0px;
-        color: black;
-        text-align: center;
+        color: $design_header_color; //Change color
+        text-align: center; //Center text
     }
     h3 {
-        font-size: 15px;
+        font-size: 15px; //Change H3 font size
     }
     p {
-        font-size: 12px;
+        font-size: 12px; //Change paragraph font size
+    }
+    
+    .contact_h3 {
+        margin-top: 220px; //Lower contact page below the header image
     }
 }

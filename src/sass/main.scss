@@ -29,6 +29,7 @@
 
 
 //end of 12 column grid
+//Wrapper
 #wrapper {
     display: table;
     
@@ -36,40 +37,41 @@
 
 
 header {
-    height: 100vh;
+    height: 100vh; //Make header height 100% of screen size
                            
     .heading_text {
-        margin-top: 200px;
+        margin-top: 200px; //Lower heading text
     }
 }
 
 h2 {
-    color: $header_color;
+    color: $header_color; //Set h2 colour
     
 }
 
 .designh2 {
-    color: $design_header_color;
+    color: $design_header_color; //set designh2 colour
 }
 
 h2, h3 {
     margin-top: 50px;
-    font-family: $heading_font;
+    font-family: $heading_font; //set H fonts
 }
 
 h3 {
-    color: $heading3_color;
-    font-size: 22px;
+    color: $heading3_color; //Set h3 colour
+    font-size: 22px; //Set h3 font size
 }
 
 p {
-    font-family: $paragraph_font;
-    color: $paragraph_color;
-    margin-top: 20px;
-    font-size: 18px;
-    line-height: 1.5em;
+    font-family: $paragraph_font; //Set p font
+    color: $paragraph_color; //Set p colour
+    margin-top: 20px; 
+    font-size: 18px; //Set p font size
+    line-height: 1.5em; //set line height
 }
 
+//Define styles for the underline
 .underline {
     margin-top: 6px;
     margin-bottom: 6px;
@@ -77,6 +79,7 @@ p {
     background-color: $heading3_color;
 }
 
+//Define styles for the instagram widget appearing on home page
 .insta_widget {
     border:none; 
     overflow:hidden; 

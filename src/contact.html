@@ -5,12 +5,13 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="icon" type="image/png" href="images/favicon.png" sizes="16x16"/>
-    <title>Michael Allen Web Development | Contact</title>
+    <link rel="icon" type="image/png" href="images/favicon.png" sizes="16x16"/><!--Favicon-->
+    <title>Michael Allen Web Development | Contact</title> <!--Page title-->
 </head>
 <body>
 
 <header style="background-image: url(images/backgrounds/bg_contact.png); background-size: 100%; background-attachment: fixed;"   class="contact col-12"> <!--Start of Header-->
+
     <div class="topnav col-12">
         <nav class="col-8"> <!-- Navigation -->
             <ul>
@@ -39,22 +40,23 @@
             </ul>
             
         </nav> <!-- End of Navigation -->
-        <h1 class='col-4'>Michael Allen Web Development</h1>
+        <h1 class='col-4 desktop-only'>Michael Allen Web Development</h1>
     </div>
-        
-    <h3 class="offset-6 col-5">Let's work together!</h3>
+    
+<div id="wrapper">        
+    <h3 class="contact_h3 offset-6 col-5">Let's work together!</h3>
     <div class="underline offset-6 col-2"></div><!--Heading underline-->
     
     <span id="app">
-        <contact-form></contact-form>
+        <contact-form></contact-form> <!--Contact form component-->
     </span>
     
     
     
-    
+</div><!--End wrapper-->  
 </header> <!-- End of Header -->
 
-<footer class="col-12 no_top_margin"><!--Start footer-->
+<footer class="col-12 no_top_margin desktop-only"><!--Start footer-->
     <nav class="footer-nav">
         <ul>
             <a href="index.html"><li>About Me</li></a>
