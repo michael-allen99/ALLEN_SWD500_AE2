@@ -1,0 +1,41 @@
+//Analogue clock CSS
+
+.clock_container {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+//Styles for the clock face
+.clock {
+  border: 10px solid $design_header_color;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin-top: 20px;
+  position: relative;
+  transform: rotate(90deg);
+}
+
+//Styles for the clock hands
+.hours,
+.minutes,
+.seconds {
+  height: 3px;
+  background: #000;
+  transform-origin: 100%;
+  display: block;
+  position: absolute;
+  top: 50%;
+  margin-top: -3px;
+}
+
+.hours {
+  width: 35%;
+  left: 15%;
+}
+
+.seconds,
+.minutes {
+  width: 43%;
+  left: 7%;
+}
