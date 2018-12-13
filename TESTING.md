@@ -12,9 +12,9 @@
 |7| Images | Certain images should redirect to a different page | Click on images and check links | Pass | None 
 |8| Buttons | Buttons should change colour on hover | Hover over buttons | Pass | None
 |9| Buttons | Buttons should redirect to an internal/external site page | Click on buttons | Pass | None
-|10| Responsive | Elements should stack on Mobile | Developer Tools | |
-|11| Responsive | Images should resize on Mobile to be full width| Developer Tools | |
-|12| Responsive | Font should resize on Mobile | Developer Tools | |
+|10| Responsive | Elements should stack on Mobile | Developer Tools |Pass | None
+|11| Responsive | Images should resize on Mobile to be full width| Developer Tools | Pass | None
+|12| Responsive | Font should resize on Mobile | Developer Tools | Pass | None
 |13| Favicon | The Favicon should appear on every page | Google Chrome | Pass | None
 
 
