@@ -1,4 +1,5 @@
-Test Table
+# Test Table
+
 
 |Test | Description | Test Method | Pass/Fail | Further Action Required
 |-----|-------------|-------------|-----------|-------------------------
@@ -17,8 +18,12 @@ Test Table
 | Favicon | The Favicon should appear on every page | Google Chrome | Pass | None
 
 
+---------------------------------------------
+# User Testing
 
 
+
+---------------------------------------------
 
 While developing the website the W3Schools coding styles will be followed. The following HTML coding styles will be used throughout this project:
 
