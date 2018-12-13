@@ -1,5 +1,6 @@
 
 # View Testing: [Click Here](TESTING.md)
+# View Evaluation: [Click Here](EVALUATION.md)
 ---------------------------------------------
 
 While developing the website the W3Schools coding styles will be followed. The following HTML coding styles will be used throughout this project:
