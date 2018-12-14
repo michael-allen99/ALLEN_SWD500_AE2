@@ -1,5 +1,5 @@
-Link to gitHub repo: https://github.com/michael-allen99/ALLEN_SWD500_AE2
-
+Link to gitHub repo: [Click Here](https://github.com/michael-allen99/ALLEN_SWD500_AE2)
+Link to website wireframes (Behance): [Click Here](https://www.behance.net/gallery/73256257/Web-Development-Portfolio-Wireframes)
 
 # View Testing: [Click Here](TESTING.md)
 # View Evaluation: [Click Here](EVALUATION.md)
