@@ -18,8 +18,8 @@
 |13| Favicon | The Favicon should appear on every page | Google Chrome | Pass | None
 |14| JavaScript | Analogue clock displays and updates on JavaScript page | Load JavaScript page |Pass | None
 |15| JavaScript | Avatar image changes to happy on rollover | Rollover image |Pass | None
-|16| Validation | Form should require name and email | Pass | Input erroneous data | None
-|17| Validation | Form should require a valid email | Pass | Input erroneous data |None
+|16| Validation | Form should require name and email | Input erroneous data | Pass | None
+|17| Validation | Form should require a valid email | Input erroneous data | Pass |None
 |18| Name update | Form should display users name in realtime from the "name" input | Input data into name field |Pass | None
 
 
